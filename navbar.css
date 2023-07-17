@@ -1,0 +1,71 @@
+
+html{
+    font-size: 62.5%;
+    --primaryFont : 'DM Sans', sans-serif;
+    --charSpace : 6px; 
+    --primaryColor : #3e4152;
+    --secondaryColor : #fafbfc;
+}
+body{
+    font-family: var(--primaryFont);
+    scroll-behavior: smooth;
+}
+#landingPage{
+    height: 100px;
+    width: 50px;
+}
+#nav_bar{
+    background-color: white;
+    font-family:Whitney;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    box-sizing: border-box;
+    padding: 35px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px ;
+    font-size: 14px;
+    line-height: 20px;
+    color:#545766;
+    font-weight: bolder;
+}
+ #profile,#wishlist,#bag{
+ text-align: center;
+ color: #6c2632;
+ 
+ }
+ #profile>p,#wishlist>p,#bag>p{
+     margin-top: -0px;
+     font-size: 12px;
+     color: black;
+ }
+ #profile>a>i,#wishlist>a>i,#bag>a>i{
+     color:gray;
+ }
+ img~a>div{
+     color:black;
+ }
+ a:link{
+     text-decoration: none;
+ }
+ a>div{
+     color: black;
+ }
+ 
+ input {
+     background-color: transparent;
+     border: 0px solid;
+     height: 40px;
+     width: 80%;
+     color: #CCC;
+ }
+ textarea:focus,input:focus
+ {
+     outline: none;
+ }
+ i{
+     font-size:20px;  
+ }
+ img{
+     width: 100%;
+ }
